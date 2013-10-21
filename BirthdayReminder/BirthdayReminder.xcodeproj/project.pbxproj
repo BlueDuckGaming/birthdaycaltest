@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44094BB1181583E80055DE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BB0181583E80055DE38 /* Foundation.framework */; };
+		44094BB3181583E80055DE38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BB2181583E80055DE38 /* CoreGraphics.framework */; };
+		44094BB5181583E80055DE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BB4181583E80055DE38 /* UIKit.framework */; };
+		44094BBB181583E80055DE38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44094BB9181583E80055DE38 /* InfoPlist.strings */; };
+		44094BBD181583E80055DE38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44094BBC181583E80055DE38 /* main.m */; };
+		44094BC1181583E80055DE38 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44094BC0181583E80055DE38 /* BRAppDelegate.m */; };
+		44094BC4181583E80055DE38 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44094BC2181583E80055DE38 /* Main_iPhone.storyboard */; };
+		44094BC7181583E80055DE38 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44094BC5181583E80055DE38 /* Main_iPad.storyboard */; };
+		44094BCA181583E80055DE38 /* BRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44094BC9181583E80055DE38 /* BRViewController.m */; };
+		44094BCC181583E80055DE38 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44094BCB181583E80055DE38 /* Images.xcassets */; };
+		44094BD3181583E80055DE38 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BD2181583E80055DE38 /* XCTest.framework */; };
+		44094BD4181583E80055DE38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BB0181583E80055DE38 /* Foundation.framework */; };
+		44094BD5181583E80055DE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BB4181583E80055DE38 /* UIKit.framework */; };
+		44094BDD181583E80055DE38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44094BDB181583E80055DE38 /* InfoPlist.strings */; };
+		44094BDF181583E80055DE38 /* BirthdayReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44094BDE181583E80055DE38 /* BirthdayReminderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44094BD6181583E80055DE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44094BA5181583E80055DE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44094BAC181583E80055DE38;
+			remoteInfo = BirthdayReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44094BAD181583E80055DE38 /* BirthdayReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44094BB0181583E80055DE38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44094BB2181583E80055DE38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44094BB4181583E80055DE38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44094BB8181583E80055DE38 /* BirthdayReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirthdayReminder-Info.plist"; sourceTree = "<group>"; };
+		44094BBA181583E80055DE38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44094BBC181583E80055DE38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44094BBE181583E80055DE38 /* BirthdayReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BirthdayReminder-Prefix.pch"; sourceTree = "<group>"; };
+		44094BBF181583E80055DE38 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		44094BC0181583E80055DE38 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
+		44094BC3181583E80055DE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		44094BC6181583E80055DE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		44094BC8181583E80055DE38 /* BRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRViewController.h; sourceTree = "<group>"; };
+		44094BC9181583E80055DE38 /* BRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRViewController.m; sourceTree = "<group>"; };
+		44094BCB181583E80055DE38 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44094BD1181583E80055DE38 /* BirthdayReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44094BD2181583E80055DE38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44094BDA181583E80055DE38 /* BirthdayReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirthdayReminderTests-Info.plist"; sourceTree = "<group>"; };
+		44094BDC181583E80055DE38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44094BDE181583E80055DE38 /* BirthdayReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayReminderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44094BAA181583E80055DE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44094BB3181583E80055DE38 /* CoreGraphics.framework in Frameworks */,
+				44094BB5181583E80055DE38 /* UIKit.framework in Frameworks */,
+				44094BB1181583E80055DE38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44094BCE181583E80055DE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44094BD3181583E80055DE38 /* XCTest.framework in Frameworks */,
+				44094BD5181583E80055DE38 /* UIKit.framework in Frameworks */,
+				44094BD4181583E80055DE38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44094BA4181583E80055DE38 = {
+			isa = PBXGroup;
+			children = (
+				44094BB6181583E80055DE38 /* BirthdayReminder */,
+				44094BD8181583E80055DE38 /* BirthdayReminderTests */,
+				44094BAF181583E80055DE38 /* Frameworks */,
+				44094BAE181583E80055DE38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44094BAE181583E80055DE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44094BAD181583E80055DE38 /* BirthdayReminder.app */,
+				44094BD1181583E80055DE38 /* BirthdayReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44094BAF181583E80055DE38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44094BB0181583E80055DE38 /* Foundation.framework */,
+				44094BB2181583E80055DE38 /* CoreGraphics.framework */,
+				44094BB4181583E80055DE38 /* UIKit.framework */,
+				44094BD2181583E80055DE38 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44094BB6181583E80055DE38 /* BirthdayReminder */ = {
+			isa = PBXGroup;
+			children = (
+				44094BBF181583E80055DE38 /* BRAppDelegate.h */,
+				44094BC0181583E80055DE38 /* BRAppDelegate.m */,
+				44094BC2181583E80055DE38 /* Main_iPhone.storyboard */,
+				44094BC5181583E80055DE38 /* Main_iPad.storyboard */,
+				44094BC8181583E80055DE38 /* BRViewController.h */,
+				44094BC9181583E80055DE38 /* BRViewController.m */,
+				44094BCB181583E80055DE38 /* Images.xcassets */,
+				44094BB7181583E80055DE38 /* Supporting Files */,
+			);
+			path = BirthdayReminder;
+			sourceTree = "<group>";
+		};
+		44094BB7181583E80055DE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44094BB8181583E80055DE38 /* BirthdayReminder-Info.plist */,
+				44094BB9181583E80055DE38 /* InfoPlist.strings */,
+				44094BBC181583E80055DE38 /* main.m */,
+				44094BBE181583E80055DE38 /* BirthdayReminder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44094BD8181583E80055DE38 /* BirthdayReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				44094BDE181583E80055DE38 /* BirthdayReminderTests.m */,
+				44094BD9181583E80055DE38 /* Supporting Files */,
+			);
+			path = BirthdayReminderTests;
+			sourceTree = "<group>";
+		};
+		44094BD9181583E80055DE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44094BDA181583E80055DE38 /* BirthdayReminderTests-Info.plist */,
+				44094BDB181583E80055DE38 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44094BAC181583E80055DE38 /* BirthdayReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44094BE2181583E80055DE38 /* Build configuration list for PBXNativeTarget "BirthdayReminder" */;
+			buildPhases = (
+				44094BA9181583E80055DE38 /* Sources */,
+				44094BAA181583E80055DE38 /* Frameworks */,
+				44094BAB181583E80055DE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayReminder;
+			productName = BirthdayReminder;
+			productReference = 44094BAD181583E80055DE38 /* BirthdayReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44094BD0181583E80055DE38 /* BirthdayReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44094BE5181583E80055DE38 /* Build configuration list for PBXNativeTarget "BirthdayReminderTests" */;
+			buildPhases = (
+				44094BCD181583E80055DE38 /* Sources */,
+				44094BCE181583E80055DE38 /* Frameworks */,
+				44094BCF181583E80055DE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44094BD7181583E80055DE38 /* PBXTargetDependency */,
+			);
+			name = BirthdayReminderTests;
+			productName = BirthdayReminderTests;
+			productReference = 44094BD1181583E80055DE38 /* BirthdayReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44094BA5181583E80055DE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "David Gaither";
+				TargetAttributes = {
+					44094BD0181583E80055DE38 = {
+						TestTargetID = 44094BAC181583E80055DE38;
+					};
+				};
+			};
+			buildConfigurationList = 44094BA8181583E80055DE38 /* Build configuration list for PBXProject "BirthdayReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44094BA4181583E80055DE38;
+			productRefGroup = 44094BAE181583E80055DE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44094BAC181583E80055DE38 /* BirthdayReminder */,
+				44094BD0181583E80055DE38 /* BirthdayReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44094BAB181583E80055DE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44094BC7181583E80055DE38 /* Main_iPad.storyboard in Resources */,
+				44094BCC181583E80055DE38 /* Images.xcassets in Resources */,
+				44094BC4181583E80055DE38 /* Main_iPhone.storyboard in Resources */,
+				44094BBB181583E80055DE38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44094BCF181583E80055DE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44094BDD181583E80055DE38 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44094BA9181583E80055DE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44094BCA181583E80055DE38 /* BRViewController.m in Sources */,
+				44094BC1181583E80055DE38 /* BRAppDelegate.m in Sources */,
+				44094BBD181583E80055DE38 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44094BCD181583E80055DE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44094BDF181583E80055DE38 /* BirthdayReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44094BD7181583E80055DE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44094BAC181583E80055DE38 /* BirthdayReminder */;
+			targetProxy = 44094BD6181583E80055DE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44094BB9181583E80055DE38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44094BBA181583E80055DE38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44094BC2181583E80055DE38 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44094BC3181583E80055DE38 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		44094BC5181583E80055DE38 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44094BC6181583E80055DE38 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		44094BDB181583E80055DE38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44094BDC181583E80055DE38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44094BE0181583E80055DE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44094BE1181583E80055DE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44094BE3181583E80055DE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthdayReminder/BirthdayReminder-Prefix.pch";
+				INFOPLIST_FILE = "BirthdayReminder/BirthdayReminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44094BE4181583E80055DE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthdayReminder/BirthdayReminder-Prefix.pch";
+				INFOPLIST_FILE = "BirthdayReminder/BirthdayReminder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44094BE6181583E80055DE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BirthdayReminder.app/BirthdayReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthdayReminder/BirthdayReminder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BirthdayReminderTests/BirthdayReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		44094BE7181583E80055DE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BirthdayReminder.app/BirthdayReminder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BirthdayReminder/BirthdayReminder-Prefix.pch";
+				INFOPLIST_FILE = "BirthdayReminderTests/BirthdayReminderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44094BA8181583E80055DE38 /* Build configuration list for PBXProject "BirthdayReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44094BE0181583E80055DE38 /* Debug */,
+				44094BE1181583E80055DE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44094BE2181583E80055DE38 /* Build configuration list for PBXNativeTarget "BirthdayReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44094BE3181583E80055DE38 /* Debug */,
+				44094BE4181583E80055DE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44094BE5181583E80055DE38 /* Build configuration list for PBXNativeTarget "BirthdayReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44094BE6181583E80055DE38 /* Debug */,
+				44094BE7181583E80055DE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44094BA5181583E80055DE38 /* Project object */;
+}
