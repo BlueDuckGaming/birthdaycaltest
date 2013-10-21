@@ -22,6 +22,12 @@
 		44094BD5181583E80055DE38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44094BB4181583E80055DE38 /* UIKit.framework */; };
 		44094BDD181583E80055DE38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44094BDB181583E80055DE38 /* InfoPlist.strings */; };
 		44094BDF181583E80055DE38 /* BirthdayReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44094BDE181583E80055DE38 /* BirthdayReminderTests.m */; };
+		44094BEF1815AFE10055DE38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44094BE91815AFE00055DE38 /* Default-568h@2x.png */; };
+		44094BF01815AFE10055DE38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 44094BEA1815AFE00055DE38 /* Default.png */; };
+		44094BF11815AFE10055DE38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44094BEB1815AFE00055DE38 /* Default@2x.png */; };
+		44094BF21815AFE10055DE38 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 44094BEC1815AFE00055DE38 /* Icon-72.png */; };
+		44094BF31815AFE10055DE38 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 44094BED1815AFE00055DE38 /* Icon.png */; };
+		44094BF41815AFE10055DE38 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44094BEE1815AFE00055DE38 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		44094BDA181583E80055DE38 /* BirthdayReminderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirthdayReminderTests-Info.plist"; sourceTree = "<group>"; };
 		44094BDC181583E80055DE38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44094BDE181583E80055DE38 /* BirthdayReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayReminderTests.m; sourceTree = "<group>"; };
+		44094BE91815AFE00055DE38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		44094BEA1815AFE00055DE38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		44094BEB1815AFE00055DE38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		44094BEC1815AFE00055DE38 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		44094BED1815AFE00055DE38 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		44094BEE1815AFE00055DE38 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,7 @@
 		44094BB6181583E80055DE38 /* BirthdayReminder */ = {
 			isa = PBXGroup;
 			children = (
+				44094BE81815AFE00055DE38 /* resources */,
 				44094BBF181583E80055DE38 /* BRAppDelegate.h */,
 				44094BC0181583E80055DE38 /* BRAppDelegate.m */,
 				44094BC2181583E80055DE38 /* Main_iPhone.storyboard */,
@@ -153,6 +166,19 @@
 				44094BDB181583E80055DE38 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44094BE81815AFE00055DE38 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				44094BE91815AFE00055DE38 /* Default-568h@2x.png */,
+				44094BEA1815AFE00055DE38 /* Default.png */,
+				44094BEB1815AFE00055DE38 /* Default@2x.png */,
+				44094BEC1815AFE00055DE38 /* Icon-72.png */,
+				44094BED1815AFE00055DE38 /* Icon.png */,
+				44094BEE1815AFE00055DE38 /* Icon@2x.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +258,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44094BF31815AFE10055DE38 /* Icon.png in Resources */,
 				44094BC7181583E80055DE38 /* Main_iPad.storyboard in Resources */,
+				44094BF01815AFE10055DE38 /* Default.png in Resources */,
 				44094BCC181583E80055DE38 /* Images.xcassets in Resources */,
 				44094BC4181583E80055DE38 /* Main_iPhone.storyboard in Resources */,
+				44094BEF1815AFE10055DE38 /* Default-568h@2x.png in Resources */,
+				44094BF21815AFE10055DE38 /* Icon-72.png in Resources */,
+				44094BF11815AFE10055DE38 /* Default@2x.png in Resources */,
 				44094BBB181583E80055DE38 /* InfoPlist.strings in Resources */,
+				44094BF41815AFE10055DE38 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
